@@ -9,8 +9,8 @@
     <ProjectGuid>{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnityClassLibrary1</RootNamespace>
-    <AssemblyName>UnityClassLibrary1</AssemblyName>
+    <RootNamespace>POC.ToUnity.NamespaceTalker</RootNamespace>
+    <AssemblyName>POC.ToUnity.NamespaceTalker</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,9 +41,11 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEditor">
       <HintPath>$(ProgramFiles)\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>$(ProgramFiles)\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -53,8 +55,9 @@
     <Compile Include="..\..\..\CustomTools\CustomTools.AssemblyVersionInfo\Properties\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="MonoBehaviourClass1.cs" />
+    <Compile Include="MyNamespace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DefaultNamespace.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

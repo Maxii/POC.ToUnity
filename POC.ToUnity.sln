@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityClassLibrary1", "UnityClassLibrary1\UnityClassLibrary1.csproj", "{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.ToUnity.NamespaceTalker", "POC.ToUnity.NamespaceTalker\POC.ToUnity.NamespaceTalker.csproj", "{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

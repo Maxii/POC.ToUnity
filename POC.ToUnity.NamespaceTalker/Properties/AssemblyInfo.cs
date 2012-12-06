@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UnityClassLibrary1")]
+[assembly: AssemblyTitle("POC.ToUnity.NamespaceTalker")]
 
 // The AssemblyCultureAttribute is used by compilers to distinguish between a main assembly and a satellite assembly. 
 // A main assembly contains code and the neutral culture's resources. A satellite assembly contains only resources for a 
@@ -17,5 +17,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCulture("")]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9676f76f-142b-4cbc-a979-442c12e0b832")]
+[assembly: Guid("c671b50d-18d4-4147-b298-51ac3f0ef295")]
 
