@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}</ProjectGuid>
+    <ProjectGuid>{87B760EE-4C14-4C32-B31F-A59935F48541}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>POC.ToUnity.NamespaceTalker</RootNamespace>

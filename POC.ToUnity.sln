@@ -1,7 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.ToUnity.NamespaceTalker", "POC.ToUnity.NamespaceTalker\POC.ToUnity.NamespaceTalker.csproj", "{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.ToUnity.NamespaceTalker", "POC.ToUnity.NamespaceTalker\POC.ToUnity.NamespaceTalker.csproj", "{87B760EE-4C14-4C32-B31F-A59935F48541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferencedProjects", "ReferencedProjects", "{172B6A5A-2C80-458F-8F86-9F9EC4CCCDD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeEnv.Master.Resources", "..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Resources\CodeEnv.Master.Resources.csproj", "{30988A11-A4F0-4FDC-82D5-41B87EA410BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeEnv.Master.Common", "..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common\CodeEnv.Master.Common.csproj", "{1557C03E-56EE-4C70-9BD8-AB637D3191CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeEnv.Master.CommonUnity", "..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.CommonUnity\CodeEnv.Master.CommonUnity.csproj", "{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +21,25 @@ Global
 		{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{129DCF86-4FC5-4CAF-AAFE-911EFC560E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30988A11-A4F0-4FDC-82D5-41B87EA410BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30988A11-A4F0-4FDC-82D5-41B87EA410BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30988A11-A4F0-4FDC-82D5-41B87EA410BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30988A11-A4F0-4FDC-82D5-41B87EA410BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1557C03E-56EE-4C70-9BD8-AB637D3191CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1557C03E-56EE-4C70-9BD8-AB637D3191CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1557C03E-56EE-4C70-9BD8-AB637D3191CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1557C03E-56EE-4C70-9BD8-AB637D3191CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B760EE-4C14-4C32-B31F-A59935F48541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B760EE-4C14-4C32-B31F-A59935F48541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B760EE-4C14-4C32-B31F-A59935F48541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B760EE-4C14-4C32-B31F-A59935F48541}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30988A11-A4F0-4FDC-82D5-41B87EA410BE} = {172B6A5A-2C80-458F-8F86-9F9EC4CCCDD3}
+		{1557C03E-56EE-4C70-9BD8-AB637D3191CF} = {172B6A5A-2C80-458F-8F86-9F9EC4CCCDD3}
+		{129DCF86-4FC5-4CAF-AAFE-911EFC560E10} = {172B6A5A-2C80-458F-8F86-9F9EC4CCCDD3}
 	EndGlobalSection
 EndGlobal
