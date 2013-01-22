@@ -19,21 +19,24 @@ using System.Text;
 using UnityEngine;
 using UnityEditor;
 using CodeEnv.Master.Common;
-using CodeEnv.Master.Resources;
-using CodeEnv.Master.UI;
+using CodeEnv.Master.Common.Resources;
+using CodeEnv.Master.Common.UI;
+using CodeEnv.Master.Common.Unity;
 
 /// <summary>
 /// COMMENT 
 /// </summary>
 public class ClickToFocus : MonoBehaviour {
 
-    EventManager eventManager;
+    GameEventManager eventManager;
 
     private bool isSelectedFocus = false;
 
+    [Obsolete]
     public void SetFocusLost() {    // Not needed unless using ZoomTargetChangeEvents
+        Debug.LogWarning(transform.gameObject.name + ".SetFocusLost() call received.");
         if (!isSelectedFocus) {
-            Debug.LogWarning("SetFocusLost() called without being the selected focus.");
+            Debug.LogError("SetFocusLost() called without being the selected focus.");
         }
         isSelectedFocus = false;
     }
@@ -44,7 +47,7 @@ public class ClickToFocus : MonoBehaviour {
 
     private void Start() {
         // Keep at a minimum, an empty Start method so that instances receive the OnDestroy event
-        eventManager = EventManager.Instance;
+        eventManager = GameEventManager.Instance;
     }
 
     private void Update() {
@@ -56,9 +59,10 @@ public class ClickToFocus : MonoBehaviour {
     }
 
     void OnMouseOver() {
+        //Debug.Log(transform.gameObject.name + ".OnMouseOver() called. IsSelectedFocus = " + isSelectedFocus);
         if (!isSelectedFocus && Input.GetMouseButtonDown((int)MouseButton.Middle)) {
-            isSelectedFocus = true;
-            Debug.Log("FocusSelectedEvent has been Raised.");
+            //isSelectedFocus = true;   // knowledge of being the focus no longer needed
+            Debug.LogWarning("FocusSelectedEvent has been Raised.");
             eventManager.Raise<FocusSelectedEvent>(new FocusSelectedEvent(transform));
         }
     }

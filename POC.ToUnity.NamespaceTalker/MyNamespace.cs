@@ -24,8 +24,6 @@ namespace POC.ToUnity.NamespaceTalker {
     /// </summary>
     public class MyNamespace : MonoBehaviour {
 
-        private int privateInt = 0;
-
         public string publicMsg = "Message from MyNamespace indicating a Script with no namespace can access a MonoBehaviour inside a namespace.";
 
         public int IntProperty { get; set; }

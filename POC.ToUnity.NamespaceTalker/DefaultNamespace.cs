@@ -23,8 +23,6 @@ using POC.ToUnity.NamespaceTalker;
 /// </summary>
 public class DefaultNamespace : MonoBehaviour {
 
-    private int privateInt = 0;
-
     public string publicMsg = "Message from DefaultNamespace indicating a MonoBehaviour inside a namespace can access a Script without a namespace.";
 
     public int IntProperty { get; set; }
