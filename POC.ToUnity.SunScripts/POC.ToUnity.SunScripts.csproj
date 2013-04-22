@@ -65,17 +65,9 @@
     <Compile Include="RandomizeFlare.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common.Game\CodeEnv.Master.Common.Game.csproj">
-      <Project>{60d1cabd-3132-49a7-acd5-9095ed787b2f}</Project>
-      <Name>CodeEnv.Master.Common.Game</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common.Resources\CodeEnv.Master.Common.Resources.csproj">
+    <ProjectReference Include="..\..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common.LocalResources\CodeEnv.Master.Common.LocalResources.csproj">
       <Project>{30988a11-a4f0-4fdc-82d5-41b87ea410be}</Project>
-      <Name>CodeEnv.Master.Common.Resources</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common.UI\CodeEnv.Master.Common.UI.csproj">
-      <Project>{e694609d-48d7-4e4d-84b9-0b681488625a}</Project>
-      <Name>CodeEnv.Master.Common.UI</Name>
+      <Name>CodeEnv.Master.Common.LocalResources</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common.Unity\CodeEnv.Master.Common.Unity.csproj">
       <Project>{129dcf86-4fc5-4caf-aafe-911efc560e10}</Project>
